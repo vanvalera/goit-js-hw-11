@@ -78,15 +78,19 @@ function alertImagesFound(data) {
 }
 
 function alertNoEmptySearch() {
-  Notiflix.Notify.failure('The search string cannot be empty. Please specify your search query.');
+  Notiflix.Notify.failure(
+    'The search string cannot be empty. Please specify your search query.'
+  );
 }
 
 function alertNoImagesFound() {
   Notiflix.Notify.failure(
-    'Sorry, there are no images matching your search query. Please try again.',
+    'Sorry, there are no images matching your search query. Please try again.'
   );
 }
 
 function alertEndOfSearch() {
-  Notiflix.Notify.failure("We're sorry, but you've reached the end of search results.");
+  Notiflix.Notify.failure(
+    "We're sorry, but you've reached the end of search results."
+  );
 }
