@@ -48,10 +48,7 @@ function onSearchForm(e) {
         }
       }
     })
-    .catch(error => console.log(error))
-    .finally(() => {
-      searchForm.reset();
-    });
+    .catch(error => console.log(error));
 }
 
 function onLoadMoreBtn() {
