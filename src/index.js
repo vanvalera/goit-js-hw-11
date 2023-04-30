@@ -13,7 +13,7 @@ const loadMoreBtn = document.querySelector('.btn-load-more');
 let query = '';
 let page = 1;
 let simpleLightBox;
-const perPage = 20;
+const perPage = 40;
 
 searchForm.addEventListener('submit', onSearchForm);
 loadMoreBtn.addEventListener('click', onLoadMoreBtn);
